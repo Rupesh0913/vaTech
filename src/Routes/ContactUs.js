@@ -6,7 +6,7 @@ const ContactUs = () => {
     <>
     <div className="contact-us">
     <div className="contactContent">
-        <h6><span className="span">Contact  </span><span className="remaining-span">Us</span></h6>
+        <span className="remaining-span"><span className="span">Contact  </span> {'\u00A0'}Us</span>
         <h1>Schedule a free consultation or fill out the form and we will follow up with you shortly.</h1>
         <p>or drop your requirement at <b> hello@vatech.com </b></p>
     </div>

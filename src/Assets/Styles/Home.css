@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
 
 .heading{
     display:flex;
@@ -23,23 +23,7 @@
    
     padding:3px 0 3px 0;
 }
-.span{
-    background: rgba(7, 98, 238, 1);
-    /* background-color:blue; */
-    border-radius:50px;
-    padding:4px 10px;
-    color:white;
-    letter-spacing: 0.02em;
-}
-.remaining-span{
-    background: rgba(97, 159, 255, 1);
-    /* background-color:#619FFF; */
-    color:white;
-    border-radius:50px;
-    padding:4px 0px;
-    padding-right: 10px;
-    letter-spacing: 0.02em;
-}
+
 .content h1{
     font-size:60px;
 }
@@ -56,48 +40,11 @@
     margin-top:30px;
     
   }
-  
-.btn-1{
-    border: 0px solid blue;
-  /* border: 1px solid blue; */
-  border-radius:5px;
-  /* height: 50px; */
-  width: 20%;
-  background: linear-gradient(100.36deg, #0762EE 5.45%, #4789F0 99.98%);
-  /* background-color: blue; */
-   text-align: center;
-  font-size: 20px;
-  color: white;
-  line-height: 40px;
-  font-weight: 400;
-  cursor:pointer;
-  box-shadow: 0px 12px 25px -5px rgba(0,0,0,0.75)!important;
 
-}
-
-.btn-2{
+  #btn-knowMore{    
     margin-left:3rem;
-  border: 1px solid #2D2D2D;
-  border-radius:5px;
-  /* height: 50px; */
-  width: 20%;
-  text-align: center;
-  font-size: 20px;
-  color: #2D2D2D;
-  line-height: 40px;
-  font-weight: 400;
-  transition: ease-in-out 0.5s;
-  cursor: pointer;
-  background-color: rgba(127, 255, 212, 0);
-}
-.btn-2:hover{
-    color:white;
-    /* background-color: blue; */
-    background: linear-gradient(100.36deg, #0762EE 5.45%, #4789F0 99.98%);
-    border: 1px solid white;
-    transition: ease-in-out 0.5s;
-    box-shadow: 0px 12px 25px -5px rgba(0,0,0,0.75)!important;
-}
+  }
+
 
 .heading-img{
     z-index: -1;
@@ -184,7 +131,7 @@
 }
 
 /* support CSS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
 
 .support_head{
     background-color:#FBFBFB;
@@ -272,7 +219,7 @@ margin:4rem 0 2rem 0;
 .noDisplay{
     display: none;
 }
-.btn-support{
+/* .btn-support{
     border: 1px solid #3481f5;
     border-radius:5px;
     width: 55%;
@@ -288,7 +235,7 @@ margin:4rem 0 2rem 0;
 }
 .btn-support:hover{
     background-color:#0762EE;
-}
+} */
 .support-img{
     display:flex;
     flex-direction: column;
@@ -324,6 +271,7 @@ margin:4rem 0 2rem 0;
 .supportImg3{
     width:90%;
 }
+
  /* Media Querry */
 
  @media (max-width: 1080px){

@@ -12,7 +12,7 @@ const Contact = ({img,  rectangle, heading,  disc}) => {
         <div className="contact-content">
         <h1>{heading}</h1>
         <p>{disc}</p>
-        <button className="contact-btn">Contact Us</button>
+        <button className="btn-2" id='btn-contactUs'>Contact Us</button>
         </div>
     </div>
     </>

@@ -32,9 +32,9 @@ const Support = () => {
 
       <div className="support">
         <div className="support-content">
-          <h6>
+          
             <span className="remaining-span"><span className="span">our </span> {'\u00A0'}Support System</span>
-          </h6>
+          
           <h1>The reasons of grow, we know from root</h1>
           <p>We have support staff on call 24/7 to support your needs. </p>
           {/* <div> */}
@@ -45,7 +45,7 @@ const Support = () => {
             <li><span className="icon"><BsTelephone/> </span> 24/7 Technical Support</li>
           </ul>
           {/* </div> */}
-          <button className="btn-support">Explore all Service</button>
+          <button className="btn-1 btn-explore" >Explore all Services</button>
         </div>
         <div className="support-img">
           <div className="support-img_first-div">

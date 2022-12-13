@@ -7,10 +7,10 @@ const Heading = () => {
    
         <div className="heading">
             <div className="content">
-                <h6><span className="span">who  </span><span className="remaining-span">are we</span></h6>
+                <span className="remaining-span"><span className="span">who  </span> {'\u00A0'}are we</span>
                 <h1>We represent a team of intellectual and ethical professionals...</h1>
                 <div className="btn-container">
-                    <button className="btn-1">Know More</button>
+                    <button className="btn-1 ">Know More</button>
                 </div>
             </div>   
             <div className="heading-img">

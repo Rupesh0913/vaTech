@@ -1,5 +1,5 @@
 import React  from 'react';
-import './Assets/Styles/App.css';
+// import './Assets/Styles/App.css';
 import {Route, Routes } from "react-router-dom";
 import Home from "./Routes/Home"
 import About from "./Routes/About";
@@ -8,6 +8,7 @@ import MainWhatWeDo from "./Routes/MainWhatWeDo";
 import Error from "./Routes/Error";
 import Header from './Layouts/Header/Header';
 import Footer from './Layouts/Footer/Footer';
+import './Assets/Styles/common/common.css';
 
 export default function App() {
   return (

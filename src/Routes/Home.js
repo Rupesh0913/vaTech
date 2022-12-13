@@ -5,7 +5,7 @@ import Progress from '../Pages/HomePage/Progress'
 import Contact from '../Pages/HomePage/Contact'
 import {contactTop,  contactBottom} from "../Pages/HomePage/data/Data"
 import {homeService} from "../Pages/HomePage/data/Data"
-import Services from '../Pages/HomePage/Srvices'
+import Services from '../Pages/HomePage/Services';
 
 const Home = () => {
   return (

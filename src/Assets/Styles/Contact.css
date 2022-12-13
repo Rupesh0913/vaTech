@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
 
 .contact-us{
     display:flex;
@@ -10,11 +10,16 @@
     margin:4rem 0 2rem 0;
 
 }
+
+#btn-contactUs{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 40%;
+    margin-top: 4%;
+}
+
 .contactContent{
     width:50%;
-    /* --var-x:100px;
-    padding-left:calc(var(--var-x)/2);
-    padding-right:calc(var(--var-x)/2); */
     padding:6rem 3rem;
     background: linear-gradient(0deg, rgba(7, 98, 238, 0.1), rgba(7, 98, 238, 0.1));
 }
@@ -24,7 +29,7 @@
     padding-left:calc(var(--var-x)/2);
     padding-right:calc(var(--var-x)/2);
    
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 .contactContent h6{
     font-size: 16px;

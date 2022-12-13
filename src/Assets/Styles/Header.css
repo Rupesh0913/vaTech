@@ -1,0 +1,183 @@
+.main-nav {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* display: grid; */
+    /* grid-template-columns: 10rem 1fr 2fr 1fr 10rem; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 50px -20px; 
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+  }
+  .head-container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+  }
+  Link{
+    text-decoration: none;
+  }
+
+.showContact{
+  display: block;
+}
+.hideContact{
+  display:none;
+}
+.nav-btn{
+  color: black;
+}
+  .logo  {
+    /* display: grid; */
+    /* grid-column: 2/3; */
+    justify-content: start;
+    align-items: center;
+    font-size: 450%;
+    font-weight: 900;
+  }
+  
+  .mobile-menu {
+    /* grid-column: 2/4; */
+    position: relative;
+    z-index: 99;
+  }
+
+  .mobile-menu {
+    background-color: white;
+    height: 15rem;
+    font-size: 20px;
+    display: flex;
+    /* grid-column: 1/5; */
+    align-items: center;
+    padding-left: 3rem;
+    /* transition: all 2s linear; */
+    /* transform-origin: top; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .mobile-menu ul {
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  /* .mobile-menu ul li:first-child {
+    transition-delay: 0.2s;
+  } */
+
+/* .hamburger-inner{
+  height: 30px;
+}
+   */
+#btn-contact{
+    width: 150%;
+    height: 40%;
+    padding: 0px 1%;
+  }
+  .btn-container-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .main-nav {
+        height: 6rem;
+        grid-template-columns: 10% 4fr 1fr 1fr 10%;
+      }
+  
+    .logo{
+      font-size: 250%;
+    }
+    #btn-contact{
+        /* width: 75%; */
+        /* font-size: 150%; */
+        /* padding: 0.01px 0px; */
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+  }
+
+  
+/*  iPads, Tablets */
+@media screen and (min-width: 481px) and  (max-width: 768px){
+
+    .main-nav {
+        height: 7rem;
+        grid-template-columns: 10% 4fr 1fr 1fr 10%;
+      }
+  
+    .logo{
+      font-size: 350%;
+    }
+    #btn-contact{
+        /* width: 75%; */
+        /* font-size: 150%; */
+        /* padding: 0.01px 0px; */
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+
+
+}
+
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and  (max-width: 1024px){
+    .main-nav {
+        height: 7rem;
+        grid-template-columns: 10% 4fr 1fr 1fr 10%;
+      }
+  
+    .logo{
+      font-size: 400%;
+    }
+    #btn-contact{
+        /* width: 75%; */
+        /* font-size: 150%; */
+        /* padding: 0.01px 0px; */
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    
+
+}
+/* 
+@me dia screen and (min-width: 900px) and (max-width: 1024px){
+    .hamburger-menu{
+        display: none;
+    }
+} */
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and  (max-width: 1200px){
+    .main-nav {
+        height: 8rem;
+        grid-template-columns: 10% 4fr 1fr 1fr 10%;
+      }
+  
+    .logo{
+      font-size: 400%;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    .hamburger-menu{
+        display: none;
+    }
+}

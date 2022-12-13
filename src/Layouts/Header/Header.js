@@ -1,40 +1,49 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom';
 import "../../Assets/Styles/Main.css";
-import { GiHamburgerMenu } from "react-icons/gi";
+import "../../Assets/Styles/Header.css"
+// import { GiHamburgerMenu } from "react-icons/gi";
+import Hamburger from 'hamburger-react';
 
 const Header = () => {
 
     const[showNav,setShowNav]=useState(false);
+    
   
-    return (
+    return (<>
       <div className="main-nav">
-          <div className= "logo"><h3>vaTech.</h3></div>
-       
+          <div className= "logo">vatech.</div>
+       <div className='head-container'>
           <div className={
-              showNav ? "menu mobile-menu" : "menu"
+              showNav ? "mobile-menu" : "menu"
             }>
-              <ul>
-                  <li><Link to='/'>Home</Link></li>
-                  <li><Link to='/about'>About</Link></li>
-                  <li><Link to="/WhatWeDo">What We Do</Link></li>
-                  <li><a href="#">Blog</a></li> 
-              </ul>
+              {/* <ul> */}
+                  <Link to='/' onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>Home</div></Link>
+                  <Link to='/about' onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>About</div></Link>
+                  <Link to="/WhatWeDo" onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>What We Do</div></Link>
+                  <Link to="/" onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>Blog</div></Link>
+                  <Link to="/contactus" className={
+                    showNav ? "showContact" : "hideContact"
+                  } onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>Contact Us</div></Link>
+
+              {/* </ul> */}
           </div>
-  
-          <div className="contact-menu">
-              <ul>
-              <li><Link to='/contactus'>Contact Us</Link></li>
-              </ul>
+
+          <div className='btn-container-head'>
+                <Link to='/contactus'><button className="btn-2" id="btn-contact" >Contact Us</button></ Link>                
+                
               
               <div className= "hamburger-menu">
-                <a href="#" onClick={()=>setShowNav(!showNav)}>
-                  < GiHamburgerMenu />
-                </a>
+                <div  onClick={()=>setShowNav(!showNav)} className="hamburger-inner">
+                  < Hamburger size={25}/>
+                </div>
               </div>
-          </div>
-      </div>
+            </div>
+            </div></div>
+          
+         </>
+      // </div>
     )
   }
   
-  export default Header
+  export default Header;

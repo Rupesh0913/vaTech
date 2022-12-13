@@ -1,6 +1,4 @@
-import React from 'react'
-import Footer from '../Layouts/Footer/Footer'
-import Header from '../Layouts/Header/Header'
+import React from 'react';
 import Heading from '../Pages/AboutPage/Heading';
 import Values from '../Pages/AboutPage/Values';
 import Form from '../Pages/AboutPage/Form';
@@ -10,12 +8,10 @@ import Contact from  "../Pages/HomePage/Contact";
 const About = () => {
   return (
     <>
-    <Header/>
       <Heading/>
       <Values/>
       <Form/>
       <Contact {... contactBottom} />
-    <Footer/>
     </>
   )
 }

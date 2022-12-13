@@ -33,7 +33,7 @@ const Support = () => {
       <div className="support">
         <div className="support-content">
           <h6>
-            <span className="span">our </span> <span className="remaining-span">Support System</span>
+            <span className="remaining-span"><span className="span">our </span> {'\u00A0'}Support System</span>
           </h6>
           <h1>The reasons of grow, we know from root</h1>
           <p>We have support staff on call 24/7 to support your needs. </p>

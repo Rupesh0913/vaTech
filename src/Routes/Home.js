@@ -1,6 +1,4 @@
 import React from 'react'
-import Header from '../Layouts/Header/Header'
-import Footer from '../Layouts/Footer/Footer'
 import Heading from '../Pages/HomePage/Heading'
 import Support from '../Pages/HomePage/Support'
 import Progress from '../Pages/HomePage/Progress'
@@ -12,14 +10,12 @@ import Services from '../Pages/HomePage/Srvices'
 const Home = () => {
   return (
     <>
-     <Header/>
         <Heading/>
         <Support/>
         <Progress/>
         <Contact {...contactTop}/>
         <Services {...homeService}/>
         <Contact {...contactBottom}/>
-     <Footer/>   
     </>
   )
 }

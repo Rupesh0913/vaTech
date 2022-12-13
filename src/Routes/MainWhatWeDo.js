@@ -7,9 +7,8 @@ import Footer from '../Layouts/Footer/Footer'
 const MainWhatWeDo = () => {
   return (
     <>
-    <Header />
+
         <WhatWeDo {...WhatWeDoService}/>
-    <Footer/>
     </>
   )
 }

@@ -8,7 +8,7 @@ const Srvices = ({span1,span2,heading,icon1,icon2,icon3,icon4,icon5,icon6,iconTi
     <div className="services">
         <div className="services-content">
         <h6>
-            <span className="span">{span1} </span> <span className="remaining-span">{span2}</span>
+             <span className="remaining-span"><span className="span">{span1} </span>{'\u00A0'}{span2}</span>
           </h6>
           <h1>{heading}</h1>
      

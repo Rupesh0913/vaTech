@@ -20,7 +20,7 @@
   color: rgba(0, 0, 3, 0.8);
   transition: 0.5s;
 }
-li:hover > a {
+.nav-btn:hover {
   transform-origin: left;
   color: rgba(0, 0, 3, 1);
   text-decoration: underline;

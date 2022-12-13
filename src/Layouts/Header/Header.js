@@ -8,7 +8,11 @@ import Hamburger from 'hamburger-react';
 const Header = () => {
 
     const[showNav,setShowNav]=useState(false);
-    
+    const setNav = () =>{
+      if(showNav){
+        setShowNav(!showNav);
+      }
+    }
   
     return (<>
       <div className="main-nav">
@@ -17,16 +21,11 @@ const Header = () => {
           <div className={
               showNav ? "mobile-menu" : "menu"
             }>
-              {/* <ul> */}
-                  <Link to='/' onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>Home</div></Link>
-                  <Link to='/about' onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>About</div></Link>
-                  <Link to="/WhatWeDo" onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>What We Do</div></Link>
-                  <Link to="/" onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>Blog</div></Link>
-                  <Link to="/contactus" className={
-                    showNav ? "showContact" : "hideContact"
-                  } onClick={()=> setShowNav(!showNav)}><div className='nav-btn'>Contact Us</div></Link>
-
-              {/* </ul> */}
+                  <Link to='/' onClick={()=> setNav()}><div className='nav-btn'>Home</div></Link>
+                  <Link to='/about' onClick={()=> setNav()}><div className='nav-btn'>About</div></Link>
+                  <Link to="/WhatWeDo" onClick={()=> setNav()}><div className='nav-btn'>What We Do</div></Link>
+                  <Link to="/" onClick={()=> setNav()}><div className='nav-btn'>Blog</div></Link>
+                  <Link to="/contactus" className={showNav ? "showContact" : "hideContact"} onClick={()=> setNav()}><div className='nav-btn'>Contact Us</div></Link>
           </div>
 
           <div className='btn-container-head'>
@@ -34,8 +33,8 @@ const Header = () => {
                 
               
               <div className= "hamburger-menu">
-                <div  onClick={()=>setShowNav(!showNav)} className="hamburger-inner">
-                  < Hamburger size={25}/>
+                <div onClick={()=>setShowNav(!showNav)} className="hamburger-inner">
+                  <Hamburger size={25}/>
                 </div>
               </div>
             </div>

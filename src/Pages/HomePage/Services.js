@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Services = ({span1,span2,heading,icon1,icon2,icon3,icon4,icon5,icon6,iconTitle1,iconTitle2,
                   iconTitle3,iconTitle4,iconTitle5,iconTitle6,button,Img1,Img2, spanRight1,
@@ -21,7 +22,7 @@ const Services = ({span1,span2,heading,icon1,icon2,icon3,icon4,icon5,icon6,iconT
             <li><span className={icon6==='' ? 'noDisplay':'icon'}>{icon6} </span> {iconTitle6}</li>
           </ul>
         
-          <button className="btn-1 btn-explore" >{button}</button>
+          <Link to='WhatWeDo'><button className="btn-1 btn-explore" >Explore all Services</button></Link>
         </div>
         <div className="services-img-content">
             <div className="services-img">

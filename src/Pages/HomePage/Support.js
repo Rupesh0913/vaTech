@@ -11,6 +11,8 @@ import {TbRocket} from "react-icons/tb";
 import {AiOutlineBulb} from "react-icons/ai";
 import {FaRegHandshake} from "react-icons/fa";
 import {BsTelephone} from "react-icons/bs";
+import {Link} from 'react-router-dom';
+
 const Support = () => {
   return (
     <>
@@ -45,7 +47,7 @@ const Support = () => {
             <li><span className="icon"><BsTelephone/> </span> 24/7 Technical Support</li>
           </ul>
           {/* </div> */}
-          <button className="btn-1 btn-explore" >Explore all Services</button>
+          <Link to='WhatWeDo'><button className="btn-1 btn-explore" >Explore all Services</button></Link>
         </div>
         <div className="support-img">
           <div className="support-img_first-div">

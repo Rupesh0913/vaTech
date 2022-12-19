@@ -10,12 +10,14 @@ import Services from '../Pages/HomePage/Services';
 const Home = () => {
   return (
     <>
+    <div className="main-box">
         <Heading/>
         <Support/>
         <Progress/>
         <Contact {...contactTop}/>
         <Services {...homeService}/>
         <Contact {...contactBottom}/>
+        </div>
     </>
   )
 }

@@ -1,5 +1,8 @@
 .main-box {
-  margin: 1vmax 5vmax;
+  margin: 1vmax 7vmax;
+}
+.main-box-1{
+  margin: 2vmax 4vmax;
 }
 
 .heading-img img {
@@ -46,7 +49,7 @@
   margin-left: 1vmax;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 515px) {
   .heading-img {
     display: none;
   }
@@ -73,7 +76,7 @@
 }
 
 /*  iPads, Tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 515px) and (max-width: 768px) {
   .heading-img {
     display: none;
   }
@@ -196,7 +199,7 @@
   margin: 2vmax 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 515px) {
   .img-container-company{
     flex-direction: column;
     margin: 0px;
@@ -235,7 +238,7 @@
 }
 
 /*  iPads, Tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 515px) and (max-width: 768px) {
   .img-container-company{
     width: 60vmax;
   }
@@ -305,7 +308,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 515px) {
   .progress-img{
     display: none;
   }
@@ -325,7 +328,7 @@
 }
 
 /*  iPads, Tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 515px) and (max-width: 768px) {
 }
 
 /* Small screens, laptops */
@@ -340,17 +343,14 @@
 @media screen and (min-width: 1201px) {
 }
 
-/*
-contact
+
+/* contact */
 
 .contact {
   display: flex;
-  --var-x: 100px;
-  padding-left: calc(var(--var-x) / 2);
-  padding-right: calc(var(--var-x) / 2);
   justify-content: center;
   align-items: center;
-  margin: 5rem 0;
+  margin: 7vmax 0;
 }
 
 .contact-img {
@@ -358,66 +358,96 @@ contact
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 40vmax;
+  margin-left: 0;
+  margin-right: 5vmax;
   position: relative;
 }
 .dots {
-  width: 100%;
+  width: 20vmax;
   z-index: -1;
-  padding-left: 5rem;
+  margin: 0;
+  padding: 0;
 }
 .officeImg {
   position: absolute;
   border-radius: 10px;
-  padding-top: 5px;
-  overflow: hidden;
   z-index: 1;
-  width: 70%;
+  width: 30vmax;
 }
 .rectangle {
   z-index: -1;
-  padding-right: 5rem;
-  width: 100%;
+  width: 20vmax;
   display: flex;
   justify-content: end;
+  margin: 0 1vmax 0 20vmax;
+}
+.contact-content-head{
+  font-size: 3.5vmax;
+  font-weight: 700;
+  line-height: 3vmax;
+  margin-bottom: 2vmax;
+}
+.contact-content-sub-head{
+  font-size: 1.5vmax;
 }
 
-.contact-content h1 {
-  font-size: 48px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.02em;
-}
-.contact-content p {
-  padding-top: 20px;
-  font-size: 24px;
-  line-height: 36px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.02em;
-}
-.contact-btn {
-  border: 1px solid #2d2d2d;
-  border-radius: 5px;
-  width: 40%;
-  text-align: center;
-  font-size: 20px;
-  color: #2d2d2d;
-  line-height: 40px;
-  transition: ease-in-out 0.5s;
-  cursor: pointer;
-  margin-top: 15px;
-}
-.contact-btn:hover {
-  color: white;
-  background-color: blue;
-  border: 1px solid blue;
-  transition: ease-in-out 0.5s;
-  box-shadow: 0px 12px 25px -5px rgba(0, 0, 0, 0.75) !important;
+@media screen and (max-width: 515px) {
+  .contact-img{
+    display: none;
+  }
+  .contact-content-head{
+    text-align: center;
+    margin: 5vmax 5vmax;
+  }
+  .contact-content-sub-head{
+    text-align: center;
+    margin: 0 4vmax 2vmax 4vmax;
+  }
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-@media (max-width: 1080px) {
+/*  iPads, Tablets */
+@media screen and (min-width: 515px) and (max-width: 768px) {
+  .contact-img{
+    display: none;
+  }
+  .contact-content-head{
+    text-align: center;
+    font-size: 5vmax;
+    margin: 0 5vmax 2vmax 5vmax;
+    line-height: 35px;
+  }
+  .contact-content-sub-head{
+    text-align: center;
+    font-size: 2vmax;
+    margin: 1vmax 4vmax 2vmax 4vmax;
+  }
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+}
+
+
+/* @media (max-width: 1080px) {
   .contact {
     flex-direction: column;
   }
@@ -456,8 +486,8 @@ contact
   .contact-btn {
     font-size: 15px;
   }
-}
-
+} */
+/*
 Services
 .services {
   --var-x: 100px;

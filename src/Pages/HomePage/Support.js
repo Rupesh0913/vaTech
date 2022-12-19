@@ -30,13 +30,13 @@ const Support = () => {
           <img src={img4} alt="microsoft" />
         </div>
 </div>
-      {/* <div className="support">
+      <div className="support-2">
         <div className="support-content">
           
             <span className="remaining-span"><span className="span">our </span> {'\u00A0'}Support System</span>
           
-          <h1>The reasons of grow, we know from root</h1>
-          <p>We have support staff on call 24/7 to support your needs. </p>
+          <div className="support-head-2">The reasons of grow, we know from root</div>
+          <div className="support-sub-head-2">We have support staff on call 24/7 to support your needs. </div>
          
           <ul>
             <li><span className="icon"><TbRocket/>   </span>  Fast working Progress</li>
@@ -48,16 +48,18 @@ const Support = () => {
           <Link to='WhatWeDo'><button className="btn-1 btn-explore" >Explore all Services</button></Link>
         </div>
         <div className="support-img">
-          <div className="support-img_first-div">
-            <img src={supportImg1} alt="" className="supportImg1" />
-            <div className="support-img_first-1_div">
-              <img src={supportImg2} alt="" className="supportImg2" />
-              <img src={supportImg3} alt="" className="supportImg3" />
+          <div className="support-img-internal">
+            <img src={supportImg1} alt="" className="supportImg1 img-support-individual" />
+            <div className="support-img-div-1">
+              <img src={supportImg2} alt="" className="supportImg2 img-support-individual" />
+              <img src={supportImg3} alt="" className="supportImg3 img-support-individual"/>
             </div>
+            </div>
+            <img src={supportImg4} alt="" className="supportImg4 img-support-individual" />
           </div>
-          <img src={supportImg4} alt="" className="supportImg4" />
+          
         </div>
-      </div> */}
+      {/* </div> */}
     </>
   );
 };

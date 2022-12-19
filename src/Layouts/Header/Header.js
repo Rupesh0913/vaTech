@@ -1,9 +1,8 @@
-import React,{useState} from 'react'
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import "../../Assets/Styles/Main.css";
-import "../../Assets/Styles/Header.css"
-// import { GiHamburgerMenu } from "react-icons/gi";
-import Hamburger from 'hamburger-react';
+import "../../Assets/Styles/Header.css";
+import {SlMenu} from "react-icons/sl";
 
 const Header = () => {
 
@@ -21,10 +20,10 @@ const Header = () => {
           <div className={
               showNav ? "mobile-menu" : "menu"
             }>
-                  <Link to='/' onClick={()=> setNav()}><div className='nav-btn'>Home</div></Link>
-                  <Link to='/about' onClick={()=> setNav()}><div className='nav-btn'>About</div></Link>
-                  <Link to="/WhatWeDo" onClick={()=> setNav()}><div className='nav-btn'>What We Do</div></Link>
-                  <Link to="/" onClick={()=> setNav()}><div className='nav-btn'>Blog</div></Link>
+                  <Link to='/' onClick={()=> setNav()}><div className='nav-btn mobile-btn'>Home</div></Link>
+                  <Link to='/about' onClick={()=> setNav()}><div className='nav-btn mobile-btn'>About</div></Link>
+                  <Link to="/WhatWeDo" onClick={()=> setNav()}><div className='nav-btn mobile-btn'>What We Do</div></Link>
+                  <Link to="/" onClick={()=> setNav()}><div className='nav-btn mobile-btn'>Blog</div></Link>
                   <Link to="/contactus" className={showNav ? "showContact" : "hideContact"} onClick={()=> setNav()}><div className='nav-btn'>Contact Us</div></Link>
           </div>
 
@@ -34,14 +33,13 @@ const Header = () => {
               
               <div className= "hamburger-menu">
                 <div onClick={()=>setShowNav(!showNav)} className="hamburger-inner">
-                  <Hamburger size={25}/>
+                <SlMenu size={25}/>
                 </div>
               </div>
             </div>
             </div></div>
           
          </>
-      // </div>
     )
   }
   

@@ -1,16 +1,24 @@
 import React from 'react'
 import '../../Assets/Styles/Footer.css';
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <>
-    <div className="footer">
-        <p><span>2022 &copy; VAtech Software Pvt. Ltd.</span></p>
-        <p>Cookies Policy | Privacy Policy</p>
-        <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">YouTube</a> | <a href="#">LinkedIn</a> </p>
-    </div>
-    </>
-  )
+      <>
+          <div className="footer">
+              <div>2022 &copy; VAtech Software Pvt. Ltd.</div>
+              <div>Cookies Policy | Privacy Policy</div>
+              <div className="social-media-footer">
+                  <a href="#" className="social-footer-icon">Facebook</a>
+                  |
+                  <a href="#" className="social-footer-icon">Instagram</a>
+                  |
+                  <a href="#" className="social-footer-icon">Twitter</a>
+                  |
+                  <a href="#" className="social-footer-icon">YouTube</a>
+                  |
+                  <a href="#" className="social-footer-icon">LinkedIn</a>
+              </div>
+          </div>
+      </>
+  );
 }
-
-export default Footer

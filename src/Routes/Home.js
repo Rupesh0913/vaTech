@@ -12,8 +12,8 @@ const Home = () => {
     <>
     <div className="main-box">
         <Heading/>
-        {/* <Support/>
-        <Progress/>
+         <Support/>
+        {/*<Progress/>
         <Contact {...contactTop}/>
         <Services {...homeService}/>
         <Contact {...contactBottom}/> */}

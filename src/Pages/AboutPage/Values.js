@@ -3,8 +3,8 @@ import img1 from "../../Assets/Images/google.jpg";
 import img2 from "../../Assets/Images/sony.jpg";
 import img3 from "../../Assets/Images/stack.jpg";
 import img4 from "../../Assets/Images/microsoft.jpg";
-import Service from "../HomePage/Services";
-import {aboutValue} from "../HomePage/data/Data"
+// import Service from "../HomePage/Services";
+// import {aboutValue} from "../HomePage/data/Data"
 const Values = () => {
   return (
     <> 
@@ -23,7 +23,7 @@ const Values = () => {
       <img src={img4} alt="microsoft" />
     </div>
   </div>
-  <Service {...aboutValue}/>
+  {/* <Service {...ab/outValue}/> */}
   </>
   )
 }

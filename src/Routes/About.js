@@ -8,9 +8,9 @@ import Contact from  "../Pages/HomePage/Contact";
 const About = () => {
   return (
     <>
-      <Heading/>
-      <Values/>
-      <Form/>
+      {/* <Heading/> */}
+      {/* <Values/>
+      <Form/> */}
       {/* <Contact {... contactBottom} /> */}
     </>
   )

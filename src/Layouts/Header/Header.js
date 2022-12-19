@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
-import "../../Assets/Styles/Main.css";
 import "../../Assets/Styles/Header.css";
 import {SlMenu} from "react-icons/sl";
 

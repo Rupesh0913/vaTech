@@ -5,15 +5,15 @@ const Heading = () => {
   return (
     <>
    
-        <div className="heading">
-            <div className="content">
+        <div className="heading-about">
+            <div className="about-content">
                 <span className="remaining-span"><span className="span">who  </span> {'\u00A0'}are we</span>
-                <h1>We represent a team of intellectual and ethical professionals...</h1>
+                <div className='about-head'>We represent a team of intellectual and ethical professionals...</div>
                 <div className="btn-container">
                     <button className="btn-1 ">Know More</button>
                 </div>
             </div>   
-            <div className="heading-img">
+            <div className="heading-about-img">
                 <img src={img} alt="stock-img"/>    
             </div> 
         </div>

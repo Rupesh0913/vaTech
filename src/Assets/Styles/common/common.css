@@ -18,6 +18,10 @@ li {
   list-style: none;
 }
 
+.main-box {
+  margin: 1vmax 7vmax;
+}
+
 
 .span {
   background: rgba(7, 98, 238, 1);
@@ -101,11 +105,6 @@ li {
 
 
 @media screen and (max-width: 480px) {
-  /* .btn-1 {
-    font-size: 15px;
-    width: 40%;
-    height: 10%;
-  } */
 }
 
 /*  iPads, Tablets */

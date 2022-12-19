@@ -12,11 +12,11 @@ const Home = () => {
     <>
     <div className="main-box">
         <Heading/>
-        <Support/>
+        {/* <Support/>
         <Progress/>
         <Contact {...contactTop}/>
         <Services {...homeService}/>
-        <Contact {...contactBottom}/>
+        <Contact {...contactBottom}/> */}
         </div>
     </>
   )

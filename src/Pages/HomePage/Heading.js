@@ -8,9 +8,11 @@ const Heading = () => {
    
         <div className="heading">
             <div className="content">
+                <div className='content-text'>
                 <span className="remaining-span"><span className="span">New way  </span> {'\u00A0'} to design web products</span>
-                <h1>BUILDING DIGITAL PRODUCTS WITH STYLE & EXPERIENCE</h1>
-                <p>Get to know how we work, who we are and what we value on this all include beautiful web pages.</p>
+                <div className='content-head-text'>BUILDING DIGITAL PRODUCTS WITH STYLE & EXPERIENCE</div>
+                <div className='content-sub-head-text'>Get to know how we work, who we are and what we value on this all include beautiful web pages.</div>
+</div>
                 <div className="btn-container">
                     <button className="btn-1">Get Started</button>
                     <button className="btn-2" id='btn-knowMore'>Know More</button>

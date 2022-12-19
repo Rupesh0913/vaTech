@@ -54,7 +54,7 @@ li {
 
 .btn-1 {
   border: 0px solid blue;
-  padding: 1vmax 5vmax;
+  padding: 0.5vmax 5vmax;
   border-radius: 5px;
   width: 19vmax;
   background: linear-gradient(100.36deg, #0762ee 5.45%, #4789f0 99.98%);
@@ -101,11 +101,11 @@ li {
 
 
 @media screen and (max-width: 480px) {
-  .btn-1 {
+  /* .btn-1 {
     font-size: 15px;
     width: 40%;
     height: 10%;
-  }
+  } */
 }
 
 /*  iPads, Tablets */

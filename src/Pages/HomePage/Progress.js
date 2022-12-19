@@ -6,20 +6,20 @@ const Progress = () => {
     <>
     <div className="progress">
         <div className="progress-img">
-            <img src={img} alt="progress" />
+            <img src={img} alt="progress"/>
         </div>
         <div className="progress-content">
         <div className="first">
-            <h1>100%</h1>
-            <p>We have 100% of client satisfaction level</p>
+            <div className='progress-content-head'>100%</div>
+            <div className='progress-content-sub-head'>We have 100% of client satisfaction level</div>
         </div>
         <div className="second">
-            <h1>250%</h1>
-            <p>we have massive growth rate of 250%</p>
+            <div className='progress-content-head'>250%</div>
+            <div className='progress-content-sub-head'>we have massive growth rate of 250%</div>
         </div>
         <div className="third">
-            <h1>5.0</h1>
-            <p>We have rating of 5 star in top rating sites</p>
+            <div className='progress-content-head'>5.0</div>
+            <div className='progress-content-sub-head'>We have rating of 5 star in top rating sites</div>
         </div>
         </div>
     </div>
@@ -27,4 +27,4 @@ const Progress = () => {
   )
 }
 
-export default Progress
+export default Progress;

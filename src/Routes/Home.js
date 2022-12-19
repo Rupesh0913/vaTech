@@ -13,8 +13,8 @@ const Home = () => {
     <div className="main-box">
         <Heading/>
          <Support/>
-        {/*<Progress/>
-        <Contact {...contactTop}/>
+        <Progress/>
+        {/*<Contact {...contactTop}/>
         <Services {...homeService}/>
         <Contact {...contactBottom}/> */}
         </div>

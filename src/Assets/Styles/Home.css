@@ -253,25 +253,22 @@
 @media screen and (min-width: 1201px) {
 }
 
-/*
-progress
+
+/* progress */
 
 .progress {
   display: flex;
   flex-direction: column;
-  --var-x: 100px;
-  padding-left: calc(var(--var-x) / 2);
-  padding-right: calc(var(--var-x) / 2);
   justify-content: center;
   align-items: center;
-  margin-bottom: 30rem;
+  margin: 4vmax 0 20vmax 0vmax;
 }
 .progress-img {
-  margin-top: 5rem;
+  margin-top: 10vmax;
   display: flex;
   justify-content: center;
   position: relative;
-  width: 95%;
+  width: 70vmax;
   border-radius: 13px;
   align-items: center;
   overflow: hidden;
@@ -281,21 +278,22 @@ progress
   border: solid;
   justify-content: space-around;
   align-items: center;
-  width: 70%;
-  padding: 7rem 0rem;
+  width: 60vmax;
+  padding: 4vmax 0rem;
   color: white;
   background-color: #3481f5;
   border-color: #3481f5;
   border-radius: 13px;
   position: absolute;
-  margin-top: 60rem;
+  margin-top: 40vmax;
 }
-.progress-content h1 {
-  font-size: 36px;
+.progress-content-head{
+  font-size: 3vmax;
+  font-weight: 500;
 }
-.progress-content p {
-  font-size: 20px;
-  padding: 0 2rem;
+.progress-content-sub-head{
+  font-size: 1.5vmax;
+  padding: 0 1vmax;
   text-align: center;
 }
 .first,
@@ -307,26 +305,42 @@ progress
   align-items: center;
 }
 
-@media (max-width: 800px) {
-  .progress {
-    margin-bottom: 10rem;
-  }
-  .progress-img {
+@media screen and (max-width: 480px) {
+  .progress-img{
     display: none;
   }
-  .progress-content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
-    position: inherit;
+  .progress{
+    margin: 10vmax 20vmax 55vmax 20vmax;
   }
-  .first,
-  .second,
-  .third {
-    padding-bottom: 4rem;
+  .progress-content{
+    flex-direction: column;
+    width: 30vmax;
+  }
+  .first,.second,.third{
+    margin: 3vmax 0 3vmax 0;
+  }
+  .progress-content-sub-head{
+    margin: 0 5vmax;
   }
 }
 
+/*  iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+}
+
+/*
 contact
 
 .contact {

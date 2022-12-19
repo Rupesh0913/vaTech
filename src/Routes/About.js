@@ -11,7 +11,7 @@ const About = () => {
       <Heading/>
       <Values/>
       <Form/>
-      <Contact {... contactBottom} />
+      {/* <Contact {... contactBottom} /> */}
     </>
   )
 }

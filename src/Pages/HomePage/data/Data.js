@@ -1,21 +1,13 @@
 import React from 'react'
-import img2 from "../../../Assets/Images/contactImg.jpg";
-import Rectangle2 from "../../../Assets/Images/Pattern/Rectangle2.jpg"
 import ServiceImg1 from '../../../Assets/Images/ServiceImg1.jpg';
 import ServiceImg2 from '../../../Assets/Images/ServiceImg2.jpg';
 import {HiOutlinePencilAlt} from "react-icons/hi";
 import {MdMobileFriendly , MdOutlineCheck} from "react-icons/md";
 import {FaLaptopCode , FaHeadSideVirus , FaHeadset} from "react-icons/fa";
 
-import AboutValue1 from "../../../Assets/Images/About-value1.jpg";
-import AboutValue2 from "../../../Assets/Images/About-value2.jpg";
+import AboutValue1 from "../../../Assets/Images/About-value1.jpg"
+import AboutValue2 from "../../../Assets/Images/About-value2.jpg"
 
-export const contactBottom= {
-    img:`${img2}`,
-    rectangle:`${Rectangle2}`,
-    heading:"What is Agile Development?",
-    disc:"Get to know how we work, who we are and what we value on this all means beautiful web page"
-}
 
 export const homeService={
     span1:"our",

@@ -30,38 +30,60 @@ const Vision = () => {
 
                     <ul>
                         <li onClick={
-                            () => setDisplay(1)
-                        } className="services-li">
+                                () => setDisplay(1)
+                            }
+                            className="services-li">
                             <span className="icon"><HiOutlinePencilAlt/>
                             </span>
-                            <span className={display==1 ? "highlight" :"notHighlight" }> Customer First</span></li>
+                            <span className={
+                                display == 1 ? "highlight" : "notHighlight"
+                            }>
+                                Customer First</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(2)
-                        } className="services-li">
+                                () => setDisplay(2)
+                            }
+                            className="services-li">
                             <span className="icon"><MdMobileFriendly/>
                             </span>
-                            <span className={display==2 ? "highlight" :"notHighlight" }> Be Passionate</span>
-                            </li>
+                            <span className={
+                                display == 2 ? "highlight" : "notHighlight"
+                            }>
+                                Be Passionate</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(3)
-                        } className="services-li">
+                                () => setDisplay(3)
+                            }
+                            className="services-li">
                             <span className="icon"><FaLaptopCode/>
                             </span>
-                            <span className={display==3 ? "highlight" :"notHighlight" }> Accountable</span>
-                           </li>
+                            <span className={
+                                display == 3 ? "highlight" : "notHighlight"
+                            }>
+                                Accountable</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(4)
-                        } className="services-li">
+                                () => setDisplay(4)
+                            }
+                            className="services-li">
                             <span className="icon"><FaHeadSideVirus/></span>
-                            <span className={display==4 ? "highlight" :"notHighlight" }> Collaborate</span></li>
+                            <span className={
+                                display == 4 ? "highlight" : "notHighlight"
+                            }>
+                                Collaborate</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(5)
-                        } className="services-li">
+                                () => setDisplay(5)
+                            }
+                            className="services-li">
                             <span className="icon"><MdOutlineCheck/>
                             </span>
-                            <span className={display==5 ? "highlight" :"notHighlight" }> Integrity</span>
-                            </li>
-                        
+                            <span className={
+                                display == 5 ? "highlight" : "notHighlight"
+                            }>
+                                Integrity</span>
+                        </li>
+
                     </ul>
 
                     <Link to='/contactus'>
@@ -80,8 +102,8 @@ const Vision = () => {
                         </div>
                         <div className="services-img-text">
 
-                           
-                    <div className='services-head'>Customer First</div>
+
+                            <div className='services-head'>Customer First</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -96,7 +118,7 @@ const Vision = () => {
                         </div>
                         <div className="services-img-text">
 
-                        <div className='services-head'>Be Passionate</div>
+                            <div className='services-head'>Be Passionate</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -111,7 +133,7 @@ const Vision = () => {
                         </div>
                         <div className="services-img-text">
 
-                        <div className='services-head'>Accountable</div>
+                            <div className='services-head'>Accountable</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -126,8 +148,8 @@ const Vision = () => {
                         </div>
                         <div className="services-img-text">
 
-                 
-                        <div className='services-head'>Collaborate</div>
+
+                            <div className='services-head'>Collaborate</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -142,12 +164,12 @@ const Vision = () => {
                         </div>
                         <div className="services-img-text">
 
-                        
-                    <div className='services-head'>Integrity</div>
+
+                            <div className='services-head'>Integrity</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
-                
+
 
                 </div>
             </div>

@@ -30,43 +30,69 @@ const Services = () => {
 
                     <ul>
                         <li onClick={
-                            () => setDisplay(1)
-                        } className="services-li">
+                                () => setDisplay(1)
+                            }
+                            className="services-li">
                             <span className="icon"><HiOutlinePencilAlt/>
                             </span>
-                            <span className={display==1 ? "highlight" :"notHighlight" }> UX/UI Design</span></li>
+                            <span className={
+                                display == 1 ? "highlight" : "notHighlight"
+                            }>
+                                UX/UI Design</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(2)
-                        } className="services-li">
+                                () => setDisplay(2)
+                            }
+                            className="services-li">
                             <span className="icon"><MdMobileFriendly/>
                             </span>
-                            <span className={display==2 ? "highlight" :"notHighlight" }> Mobile App Development</span>
-                            </li>
+                            <span className={
+                                display == 2 ? "highlight" : "notHighlight"
+                            }>
+                                Mobile App Development</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(3)
-                        } className="services-li">
+                                () => setDisplay(3)
+                            }
+                            className="services-li">
                             <span className="icon"><FaLaptopCode/>
                             </span>
-                            <span className={display==3 ? "highlight" :"notHighlight" }> Web App Development</span>
-                           </li>
+                            <span className={
+                                display == 3 ? "highlight" : "notHighlight"
+                            }>
+                                Web App Development</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(4)
-                        } className="services-li">
+                                () => setDisplay(4)
+                            }
+                            className="services-li">
                             <span className="icon"><FaHeadSideVirus/></span>
-                            <span className={display==4 ? "highlight" :"notHighlight" }> Chatbot & Machine Learning</span></li>
+                            <span className={
+                                display == 4 ? "highlight" : "notHighlight"
+                            }>
+                                Chatbot & Machine Learning</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(5)
-                        } className="services-li">
+                                () => setDisplay(5)
+                            }
+                            className="services-li">
                             <span className="icon"><MdOutlineCheck/></span>
-                            <span className={display==5 ? "highlight" :"notHighlight" }> QA & Testing Services</span>
-                            </li>
+                            <span className={
+                                display == 5 ? "highlight" : "notHighlight"
+                            }>
+                                QA & Testing Services</span>
+                        </li>
                         <li onClick={
-                            () => setDisplay(6)
-                        } className="services-li">
+                                () => setDisplay(6)
+                            }
+                            className="services-li">
                             <span className='icon'><FaHeadset/>
                             </span>
-                            <span className={display==6 ? "highlight" :"notHighlight" }> Support & Maintenance</span>
-                            </li>
+                            <span className={
+                                display == 6 ? "highlight" : "notHighlight"
+                            }>
+                                Support & Maintenance</span>
+                        </li>
                     </ul>
 
                     <Link to='WhatWeDo'>
@@ -85,8 +111,8 @@ const Services = () => {
                         </div>
                         <div className="services-img-text">
 
-                           
-                    <div className='services-head'>UX/UI Design</div>
+
+                            <div className='services-head'>UX/UI Design</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers. The product life cycle at VAtech, is a blended composition of our technical expertise. The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -101,7 +127,7 @@ const Services = () => {
                         </div>
                         <div className="services-img-text">
 
-                        <div className='services-head'>Mobile App Development</div>
+                            <div className='services-head'>Mobile App Development</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers. The product life cycle at VAtech, is a blended composition of our technical expertise. The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -116,7 +142,7 @@ const Services = () => {
                         </div>
                         <div className="services-img-text">
 
-                        <div className='services-head'>Web App Development</div>
+                            <div className='services-head'>Web App Development</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers. The product life cycle at VAtech, is a blended composition of our technical expertise. The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -131,8 +157,8 @@ const Services = () => {
                         </div>
                         <div className="services-img-text">
 
-                 
-                        <div className='services-head'>Chatbot & Machine Learning</div>
+
+                            <div className='services-head'>Chatbot & Machine Learning</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers. The product life cycle at VAtech, is a blended composition of our technical expertise. The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -147,8 +173,8 @@ const Services = () => {
                         </div>
                         <div className="services-img-text">
 
-                        
-                    <div className='services-head'>QA & Testing Services</div>
+
+                            <div className='services-head'>QA & Testing Services</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers. The product life cycle at VAtech, is a blended composition of our technical expertise. The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>
@@ -163,8 +189,8 @@ const Services = () => {
                         </div>
                         <div className="services-img-text">
 
-                     
-                    <div className='services-head'>Support & Maintenance</div>
+
+                            <div className='services-head'>Support & Maintenance</div>
                             <div className='services-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers. The product life cycle at VAtech, is a blended composition of our technical expertise. The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
                         </div>
                     </div>

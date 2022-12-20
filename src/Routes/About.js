@@ -9,6 +9,7 @@ import img1 from "../Assets/Images/officeImg.jpg";
 import img2 from "../Assets/Images/contactImg.jpg"
 import Rectangle1 from "../Assets/Images/Pattern/Rectangle.jpg"
 import Rectangle2 from "../Assets/Images/Pattern/Rectangle2.jpg"
+import Vision from '../Pages/AboutPage/Vision';
 
 const About = () => {
   return (
@@ -16,7 +17,8 @@ const About = () => {
     <div className='main-box' id='main-box-about'>
       <Heading/>
       <Values/>
-      {/* <Support/> */}  </div>
+      <Vision/>
+      </div>
       <Form/>
       
     <div className='main-box'>

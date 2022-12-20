@@ -258,3 +258,128 @@ li {
     width: 30vmax;
   }
 }
+
+
+
+
+
+/* Services */
+.services {
+  --var-x: 100px;
+  padding-left: calc(var(--var-x) / 2);
+  padding-right: calc(var(--var-x) / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:15vmax 0;
+  font-family: "Poppins", sans-serif;
+}
+.services-content {
+  width:90vmax;
+}
+.services-head{
+  font-size: 4.1vmax;
+  line-height: 5vmax;
+  font-weight: 600;
+  margin: 2vmax 0;
+}
+.services-img-text .services-head{
+  margin: 1vmax 0;
+}
+.services-desc{
+  font-size: 1.1vmax;
+  text-align: justify;
+}
+
+.services-content ul li {
+  font-size:1.3vmax;
+  color: #232222;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 0.6vmax 0;
+}
+.services-img-content {
+  width: 100%;
+}
+.services-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.services-img img {
+  width: 49%;
+}
+.highlight{
+  text-decoration: underline;
+  color: #3481f5;
+  
+}
+.notShow{
+  display: none;
+  transition: all ease 1s;
+}
+.services-content ul li {
+  cursor: pointer;
+}
+
+@media screen and (max-width:330px){
+  .services{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services-content {
+    width:20vmax;
+    text-align: center;
+  }
+  .services-content ul{
+    text-align: left;
+    /* margin-left: 10vmax; */
+  }
+  .services-img-content{
+    margin-top: 5vmax;
+  }
+  .services-desc{
+    font-size: 2vmax;
+  }
+}
+
+@media screen and (min-width:330px) and (max-width: 515px) {
+  .services{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services-content {
+    width:50vmax;
+    text-align: center;
+  }
+  .services-content ul{
+    text-align: left;
+    margin-left: 15vmax;
+  }
+  .services-img-content{
+    margin-top: 5vmax;
+  }
+  .services-desc{
+    font-size: 2vmax;
+  }
+
+}
+
+/*  iPads, Tablets */
+@media screen and (min-width: 515px) and (max-width: 768px) {
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+}
+

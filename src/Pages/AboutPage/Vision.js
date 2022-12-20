@@ -31,32 +31,32 @@ const Vision = () => {
                     <ul>
                         <li onClick={
                             () => setDisplay(1)
-                        }>
+                        } className="services-li">
                             <span className="icon"><HiOutlinePencilAlt/>
                             </span>
                             <span className={display==1 ? "highlight" :"notHighlight" }> Customer First</span></li>
                         <li onClick={
                             () => setDisplay(2)
-                        }>
+                        } className="services-li">
                             <span className="icon"><MdMobileFriendly/>
                             </span>
                             <span className={display==2 ? "highlight" :"notHighlight" }> Be Passionate</span>
                             </li>
                         <li onClick={
                             () => setDisplay(3)
-                        }>
+                        } className="services-li">
                             <span className="icon"><FaLaptopCode/>
                             </span>
                             <span className={display==3 ? "highlight" :"notHighlight" }> Accountable</span>
                            </li>
                         <li onClick={
                             () => setDisplay(4)
-                        }>
+                        } className="services-li">
                             <span className="icon"><FaHeadSideVirus/></span>
                             <span className={display==4 ? "highlight" :"notHighlight" }> Collaborate</span></li>
                         <li onClick={
                             () => setDisplay(5)
-                        }>
+                        } className="services-li">
                             <span className="icon"><MdOutlineCheck/>
                             </span>
                             <span className={display==5 ? "highlight" :"notHighlight" }> Integrity</span>

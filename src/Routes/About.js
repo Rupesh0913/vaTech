@@ -2,7 +2,6 @@ import React from 'react';
 import Heading from '../Pages/AboutPage/Heading';
 import Values from '../Pages/AboutPage/Values';
 import Form from '../Pages/AboutPage/Form';
-import { contactBottom} from "../Pages/HomePage/data/Data";
 import Contact from  "../Pages/HomePage/Contact";
 import Support from '../Pages/HomePage/Support';
 import img1 from "../Assets/Images/officeImg.jpg";

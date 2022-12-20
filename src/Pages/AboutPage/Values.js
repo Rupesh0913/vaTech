@@ -23,9 +23,8 @@ const Values = () => {
           <img src={img4} alt="microsoft" />
         </div>
 </div>
-  {/* <Service {...ab/outValue}/> */}
   </>
   )
 }
 
-export default Values
+export default Values;

@@ -31,39 +31,38 @@ const Services = () => {
                     <ul>
                         <li onClick={
                             () => setDisplay(1)
-                        }>
+                        } className="services-li">
                             <span className="icon"><HiOutlinePencilAlt/>
                             </span>
                             <span className={display==1 ? "highlight" :"notHighlight" }> UX/UI Design</span></li>
                         <li onClick={
                             () => setDisplay(2)
-                        }>
+                        } className="services-li">
                             <span className="icon"><MdMobileFriendly/>
                             </span>
                             <span className={display==2 ? "highlight" :"notHighlight" }> Mobile App Development</span>
                             </li>
                         <li onClick={
                             () => setDisplay(3)
-                        }>
+                        } className="services-li">
                             <span className="icon"><FaLaptopCode/>
                             </span>
                             <span className={display==3 ? "highlight" :"notHighlight" }> Web App Development</span>
                            </li>
                         <li onClick={
                             () => setDisplay(4)
-                        }>
+                        } className="services-li">
                             <span className="icon"><FaHeadSideVirus/></span>
                             <span className={display==4 ? "highlight" :"notHighlight" }> Chatbot & Machine Learning</span></li>
                         <li onClick={
                             () => setDisplay(5)
-                        }>
-                            <span className="icon"><MdOutlineCheck/>
-                            </span>
+                        } className="services-li">
+                            <span className="icon"><MdOutlineCheck/></span>
                             <span className={display==5 ? "highlight" :"notHighlight" }> QA & Testing Services</span>
                             </li>
                         <li onClick={
                             () => setDisplay(6)
-                        }>
+                        } className="services-li">
                             <span className='icon'><FaHeadset/>
                             </span>
                             <span className={display==6 ? "highlight" :"notHighlight" }> Support & Maintenance</span>

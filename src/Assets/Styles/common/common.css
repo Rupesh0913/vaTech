@@ -321,6 +321,22 @@ li {
 .services-content ul li {
   cursor: pointer;
 }
+.icon{
+  color: white;
+  border-radius: 1000px;
+  background-color: #0762ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3vmax;
+  height: 3vmax;
+  margin: 0 1vmax 0 0;
+}
+.services-li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 @media screen and (max-width:330px){
   .services{

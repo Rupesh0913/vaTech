@@ -39,10 +39,10 @@ const Support = () => {
           <div className="support-sub-head-2">We have support staff on call 24/7 to support your needs. </div>
          
           <ul>
-            <li><span className="icon"><TbRocket/>   </span>  Fast working Progress</li>
-            <li><span className="icon"><AiOutlineBulb/>   </span>  Excellent Protection</li>
-            <li><span className="icon"><FaRegHandshake/> </span>  Dedicated Team</li>
-            <li><span className="icon"><BsTelephone/> </span> 24/7 Technical Support</li>
+            <li className="services-li"><span className="icon"><TbRocket/>   </span>  Fast working Progress</li>
+            <li className="services-li"><span className="icon"><AiOutlineBulb/>   </span>  Excellent Protection</li>
+            <li className="services-li"><span className="icon"><FaRegHandshake/> </span>  Dedicated Team</li>
+            <li className="services-li"><span className="icon"><BsTelephone/> </span> 24/7 Technical Support</li>
           </ul>
           
           <Link to='WhatWeDo'><button className="btn-1 btn-explore" >Explore all Services</button></Link>

@@ -191,8 +191,8 @@
   font-size: 1.5vmax;
   font-weight: 500;
 }
-.support-content ul{
-  margin: 2vmax 0;
+.support-content ul li{
+  margin: 1vmax 0;
 }
 
 @media screen and (max-width: 515px) {

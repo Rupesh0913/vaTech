@@ -8,13 +8,13 @@ import Img9 from '../Assets/Images/Services/9.png';
 import {HiOutlinePencilAlt} from "react-icons/hi";
 import {MdMobileFriendly, MdOutlineCheck} from "react-icons/md";
 import { BsFillCartFill } from "react-icons/bs";
-import { RiAngularjsFill } from "react-icons/ri";
+import { RiAngularjsFill,RiCustomerService2Fill } from "react-icons/ri";
 import { GiHealthNormal } from "react-icons/gi";
 import { GoLaw,GoGist } from "react-icons/go";
-import { MdEmojiTransportation,MdSportsBasketball } from "react-icons/md";
+import { MdEmojiTransportation,MdSportsBasketball ,MdDeveloperMode} from "react-icons/md";
 import { SiChatbot ,SiHiveBlockchain,SiReact,SiFlutter,SiJava,SiIos,SiXamarin,SiNodedotjs} from "react-icons/si";
 import { AiFillCloud,AiFillAndroid} from "react-icons/ai";
-import {FaLaptopCode, FaHeadSideVirus, FaHeadset,FaFingerprint} from "react-icons/fa";
+import {FaLaptopCode, FaHeadSideVirus, FaHeadset,FaFingerprint,FaStarOfLife} from "react-icons/fa";
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -108,7 +108,7 @@ const WhatWeDo = () => {
                             <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <div className='carousel-div'>
-          <span className='icon' id='icon'></span>
+          <span className='icon' id='icon'><RiCustomerService2Fill/></span>
           <div className='carousel-head'>Customer First</div>
           <div className='carousel-desc'>The product life cycle at VAtech, is a blended composition of our technical expertise with best practices across industries to develop products attaining larger markets share and fetching greater ROI to our customers.</div>
         </div>
@@ -116,7 +116,7 @@ const WhatWeDo = () => {
       
       <Carousel.Item>
         <div className='carousel-div'>
-          <span className='icon' id='icon'></span>
+          <span className='icon' id='icon'><FaStarOfLife/></span>
           <div className='carousel-head'>Project Life Cycle</div>
           <div className='carousel-desc'>Vatech is a full cycle development company that takes care of your business app right from ideation, prototyping, to rapidly launching an MVP in the market.</div>
         </div>
@@ -124,7 +124,7 @@ const WhatWeDo = () => {
 
       <Carousel.Item>
         <div className='carousel-div'>
-          <span className='icon' id='icon'></span>
+          <span className='icon' id='icon'><MdDeveloperMode/></span>
           <div className='carousel-head'>Agile</div>
           <div className='carousel-desc'>QSS works Agile Methodology so as to provide the utmost visibility and transparency to our customers over projects controlling and monitoring timelines, risks and their mitigation strategies.</div>
         </div>

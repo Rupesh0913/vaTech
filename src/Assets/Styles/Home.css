@@ -255,7 +255,7 @@
 
 /* progress */
 
-.progress-1 {
+.progress-1{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -308,7 +308,7 @@
   .progress-img{
     display: none;
   }
-  .progress{
+  .progress-1{
     margin: 10vmax 20vmax 55vmax 20vmax;
   }
   .progress-content{

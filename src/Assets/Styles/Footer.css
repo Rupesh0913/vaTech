@@ -4,8 +4,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 4rem 0 4rem 0;
-  font-size: 1vmax;
+  padding: 6vmax 0 4vmax 0;
+  font-size: 1.2vmax;
   color: white;
   background: #2d2d2d;
   font-weight: 500;
@@ -19,14 +19,17 @@ a {
 }
 
 .social-footer-icon {
-  transition: all ease 1s;
+  transition: all ease 0.5s;
 }
 
 .social-media-footer {
   margin-top: 1vmax;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
-
+#Footer-btn{
+  text-decoration: none;
+  color: white;
+}
 .social-footer-icon:hover {
   text-decoration: underline;
   font-weight: bold;

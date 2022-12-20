@@ -1,12 +1,12 @@
 import React from 'react'
-import img from '../../Assets/Images/Progress.png'
+import img1 from '../../Assets/Images/Progress.png'
 
 const Progress = () => {
   return (
     <>
-    <div className="progress">
+    <div className="progress-1">
         <div className="progress-img">
-            <img src={img} alt="progress"/>
+            <img src={img1} alt="progress"/>
         </div>
         <div className="progress-content">
         <div className="first">

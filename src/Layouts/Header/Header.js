@@ -19,11 +19,11 @@ const Header = () => {
           <div className={
               showNav ? "mobile-menu" : "menu"
             }>
-                  <Link to='/' onClick={()=> setNav()}><div className='nav-btn mobile-btn'>Home</div></Link>
-                  <Link to='/about' onClick={()=> setNav()}><div className='nav-btn mobile-btn'>About</div></Link>
-                  <Link to="/WhatWeDo" onClick={()=> setNav()}><div className='nav-btn mobile-btn'>What We Do</div></Link>
-                  <Link to="/" onClick={()=> setNav()}><div className='nav-btn mobile-btn'>Blog</div></Link>
-                  <Link to="/contactus" className={showNav ? "showContact" : "hideContact"} onClick={()=> setNav()}><div className='nav-btn mobile-btn'>Contact Us</div></Link>
+                  <Link to='/' onClick={()=> setNav()} id="header-btn"><div className='nav-btn mobile-btn' >Home</div></Link>
+                  <Link to='/about' onClick={()=> setNav()} id="header-btn"><div className='nav-btn mobile-btn'>About</div></Link>
+                  <Link to="/WhatWeDo" onClick={()=> setNav()} id="header-btn"><div className='nav-btn mobile-btn'>What We Do</div></Link>
+                  <Link to="/" onClick={()=> setNav()} id="header-btn"><div className='nav-btn mobile-btn'>Blog</div></Link>
+                  <Link to="/contactus" className={showNav ? "showContact" : "hideContact"} onClick={()=> setNav()} id="header-btn"><div className='nav-btn mobile-btn'>Contact Us</div></Link>
           </div>
 
           <div className='btn-container-head'>

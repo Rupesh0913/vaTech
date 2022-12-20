@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin: 2vmax 0 0 0;
 }
 .whatwedo-image-section{
     display: flex;
@@ -17,6 +18,7 @@
 }
 .img-whatwedo-bottom{
     width: 27vmax;
+    margin: 7vmax 0 0 0;
 }
 .whatwedo-content{
     display: flex;
@@ -89,7 +91,35 @@
     width: 40%;
     margin: 1.5vmax 0;
 }
+.carousel-div{
+    width: 27vmax;
+    height: 20vmax;
+    border-radius: 20px;
+    padding: 2.9vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(176, 206, 255, 1);
+}
+.carousel-head{
+    margin: 1vmax 0;
+    font-size: 1vmax;
+    /* font-weight: 400; */
+    text-transform: capitalize;
+}
+.carousel-desc{
+    /* text-align: justify; */
+    font-size: 0.8vmax;
+}
+#icon{
+    margin: 0;
+}
+.whatwedo-content-img-carousal{
+    margin: 2vmax 0 10vmax 0;
 
+}
 @media screen and (max-width:590px){
 .whatwedo-content-img{
     display: none;

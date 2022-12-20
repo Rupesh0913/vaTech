@@ -8,6 +8,8 @@ import Error from "./Routes/Error";
 import Header from './Layouts/Header/Header';
 import Footer from './Layouts/Footer/Footer';
 import './Assets/Styles/common/common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function App() {
   return (

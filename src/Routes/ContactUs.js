@@ -7,8 +7,8 @@ const ContactUs = () => {
     <div className="contact-us">
     <div className="contactContent">
         <span className="remaining-span"><span className="span">Contact  </span> {'\u00A0'}Us</span>
-        <h1>Schedule a free consultation or fill out the form and we will follow up with you shortly.</h1>
-        <p>or drop your requirement at <b> hello@vatech.com </b></p>
+        <div className='contactus-header'>Schedule a free consultation or fill out the form and we will follow up with you shortly.</div>
+        <div className='contactus-desc'>or drop your requirement at <b> hello@vatech.com </b></div>
     </div>
     <div className="contact-Form">
         <div className="form-line">
@@ -38,7 +38,7 @@ const ContactUs = () => {
         <label for="message" className="form-label">Message</label>
         </div>
 
-        <input type="submit" value="Submit" className="submit"/>
+        <input type="submit" value="Submit" className="submit-blue"/>
         </div>
     </div>
 

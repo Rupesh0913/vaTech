@@ -491,9 +491,14 @@
 .highlight{
   text-decoration: underline;
   color: #3481f5;
+  
 }
 .notShow{
   display: none;
+  transition: all ease 1s;
+}
+.services-content ul li {
+  cursor: pointer;
 }
 
 @media screen and (max-width:330px){

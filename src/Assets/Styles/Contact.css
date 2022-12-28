@@ -1,4 +1,4 @@
-.contact-us {
+.contact-uss {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.contactContent {
+.contactContentt {
   width: 45%;
   padding: 5vmax 2vmax;
   background: linear-gradient(
@@ -16,49 +16,49 @@
     rgba(7, 98, 238, 0.1)
   );
 }
-.contact-Form {
+.contact-Formm {
   width: 65%;
   padding: 5vmax 5vmax;
   font-family: "Poppins", sans-serif;
 }
-.contactus-desc {
+.contactus-descc {
   font-size: 1.4vmax;
   padding: 1vmax 0;
   font-style: normal;
   font-weight: 400;
   color: #2d2d2d;
 }
-.contactus-header {
+.contactus-headerr {
   font-weight: 600;
   font-size: 2.5vmax;
   line-height: 54px;
   margin: 1.5vmax 0;
 }
 
-.contact-Form {
+.contact-Formm {
   font-weight: 500;
   font-size: 1.3vmax;
   color: #989696;
 }
 
-.form-group {
+.form-groupp {
   margin-bottom: 1.6vmax;
   transition: all 0.3s;
   width: 49%;
 }
-.form-line {
+.form-linee {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.form-label {
+.form-labell {
   display: block;
   opacity: 1;
   transform: translateY(-1.35em);
   transform-origin: 0 0;
   transition: all 0.3s;
 }
-.form-control {
+.form-controll {
   box-shadow: none;
   background-color: transparent;
   border-radius: 0px;
@@ -70,35 +70,35 @@
 .message {
   width: 100%;
 }
-.form-control::placeholder {
+.form-controll::placeholder {
   color: transparent;
 }
-.form-control:focus {
+.form-controll:focus {
   box-shadow: none;
   outline: none;
   border-color: rgba(67, 136, 240, 0.76);
 }
-.form-control:focus + .form-label,
-.form-control:not(:placeholder-shown) + .form-label {
+.form-controll:focus + .form-labell,
+.form-controll:not(:placeholder-shown) + .form-labell {
   transform: translateY(-4em) scale(0.8);
 }
-.form-group:focus-within {
+.form-groupp:focus-within {
   transform: scale(1.05, 1.05);
 }
 
 @media (max-width: 800px) {
-  .contact-us {
+  .contact-uss {
     display: flex;
     flex-direction: column;
   }
-  .contactus-header,
-  .contactus-desc {
+  .contactus-headerr,
+  .contactus-descc {
     text-align: center;
   }
-  .contactContent {
+  .contactContentt {
     width: 100%;
   }
-  .contact-Form {
+  .contact-Formm {
     width: 100%;
     margin-top: 2vmax;
   }
@@ -107,7 +107,7 @@
   }
 }
 @media (max-width: 420px) {
-  .form-line {
+  .form-linee {
     display: flex;
     flex-direction: column;
   }

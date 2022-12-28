@@ -1,51 +1,128 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Assets/Styles/Contact.css';
 
+
+import {initializeApp} from "https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js";
+import {
+    getFirestore,
+    doc,
+    setDoc
+} from "https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js";
+
 const ContactUs = () => {
+    // Import the functions you need from the SDKs you need
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+const firebaseConfig = {
+    apiKey: "AIzaSyCFx9B-z4VQDl0JG2264t8EsS5R5tm-p8k",
+    authDomain: "va-tech-b5100.firebaseapp.com",
+    projectId: "va-tech-b5100",
+    storageBucket: "va-tech-b5100.appspot.com",
+    messagingSenderId: "233003430207",
+    appId: "1:233003430207:web:f7f4d0b41b763e18bea38a",
+    measurementId: "G-P24ME1XMJ8"
+  };
+
+const app = initializeApp(firebaseConfig);
+// Initialize Firebase
+const db = getFirestore();
+
+  
+
+  const[firstName, setfirstName] = useState("");
+  const[lastName, setlastName] = useState("");
+  const[email, setemail] = useState("");
+  const[contact, setcontact] = useState("");
+  const[message, setmessage] = useState("");
+
+
+  const firstNameChange =(e)=>{
+    setfirstName(e.target.value);
+  }
+  const lastNameChange =(e)=>{
+    setlastName(e.target.value);
+  }
+  const emailChange =(e)=>{
+    setemail(e.target.value);
+  }
+  const contactChange =(e)=>{
+    setcontact(e.target.value);
+  }
+  const messageChange =(e)=>{
+    setmessage(e.target.value);
+  }
+
+async function sendMessage() {
+
+
+    // Adding time stamp and changing status
+    let timeStamp = Date.now();
+    let name = firstName+" "+lastName;
+    await setDoc(doc(db, "contact", name), {
+        time: new Date(timeStamp),
+        name: name,
+        email: email,
+        contact: contact,
+        message: message
+    });
+    setfirstName("")
+    setlastName("")
+    setemail("")
+    setcontact("")
+    setmessage("")
+
+    alert("Message sent successfully");
+}
+
+
     return (
         <>
-            <div className="contact-us">
-                <div className="contactContent">
+            <div className="contact-uss">
+                <div className="contactContentt">
                     <span className="remaining-span">
                         <span className="span">Contact
                         </span>
                         {'\u00A0'}Us</span>
-                    <div className='contactus-header'>Schedule a free consultation or fill out the form and we will follow up with you shortly.</div>
-                    <div className='contactus-desc'>or drop your requirement at
+                    <div className='contactus-headerr'>Schedule a free consultation or fill out the form and we will follow up with you shortly.</div>
+                    <div className='contactus-descc'>or drop your requirement at
                         <b>
                             hello@vatech.com
                         </b>
                     </div>
                 </div>
-                <div className="contact-Form">
-                    <div className="form-line">
-                        <div className="form-group fName">
-                            <input type="text" className="form-control" id="name" placeholder="Rupesh" required/>
-                            <label for="name" className="form-label">First Name</label>
+                <div className="contact-Formm">
+                    <div className="form-linee">
+                        <div className="form-groupp fName">
+                            <input type="text" className="form-controll" value={firstName} id="name" placeholder="John" onChange={firstNameChange} required autocomplete="off"/>
+                            <label htmlFor="name" className="form-labell">First Name</label>
                         </div>
-                        <div className="form-group lName">
-                            <input type="text" className="form-control" id="lastName" placeholder="Sinha" required/>
-                            <label for="lastName" className="form-label">Last Name</label>
-                        </div>
-                    </div>
-
-                    <div className="form-line">
-                        <div className="form-group email">
-                            <input type="email" className="form-control" id="email" placeholder="vatech@gmail" required/>
-                            <label for="email" className="form-label">Email</label>
-                        </div>
-                        <div className="form-group number">
-                            <input type="number" className="form-control" id="number" placeholder="+91987654321" required/>
-                            <label for="number" className="form-label">Contact Number</label>
+                        <div className="form-groupp lName">
+                            <input type="text" className="form-controll" value={lastName} id="lastName" placeholder="Doe"  onChange={lastNameChange} required autocomplete="off"/>
+                            <label htmlFor="lastName" className="form-labell">Last Name</label>
                         </div>
                     </div>
 
-                    <div className="form-group message">
-                        <input type="text" className="form-control" id="message" placeholder="share your querry" required/>
-                        <label for="message" className="form-label">Message</label>
+                    <div className="form-linee">
+                        <div className="form-groupp email">
+                            <input type="email" className="form-controll" value={email} id="email" placeholder="example@gmail.com" onChange={emailChange}  required autocomplete="off"/>
+                            <label htmlFor="email" className="form-labell">Email</label>
+                        </div>
+                        <div className="form-groupp number">
+                            <input type="number" className="form-controll" value={contact} id="number" placeholder="+91123456789"  onChange={contactChange} required autocomplete="off"/>
+                            <label htmlFor="number" className="form-labell">Contact Number</label>
+                        </div>
                     </div>
 
-                    <input type="submit" value="Submit" className="submit-blue"/>
+                    <div className="form-groupp message">
+                        <input type="text" className="form-controll" onChange={messageChange}  value={message} id="message" placeholder="share your querry" required autocomplete="off"/>
+                        <label htmlFor="message" className="form-labell">Message</label>
+                    </div>
+
+                    <input type="submit" onClick={()=>sendMessage()} value="Submit" className="submit-blue"/>
                 </div>
             </div>
 

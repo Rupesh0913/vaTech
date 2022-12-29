@@ -26,10 +26,12 @@ a {
   margin-top: 1vmax;
   letter-spacing: 2px;
 }
+
 #Footer-btn {
   text-decoration: none;
   color: white;
 }
+
 .social-footer-icon:hover {
   text-decoration: underline;
   font-weight: bold;

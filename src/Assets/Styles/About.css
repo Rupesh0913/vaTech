@@ -7,12 +7,14 @@
   display: flex;
   justify-content: center;
 }
+
 .about-head {
   font-size: 3vmax;
   font-weight: 700;
   line-height: 4vmax;
   margin: 3vmax 0;
 }
+
 .heading-about-img img {
   width: 40vmax;
 }
@@ -21,6 +23,7 @@
   .heading-about-img img {
     display: none;
   }
+
   .about-head {
     text-align: center;
     font-size: 4vmax;
@@ -33,16 +36,4 @@
   .about-content {
     margin-right: 3vmax;
   }
-}
-
-/* Small screens, laptops */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-
-/* Desktops, large screens */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-}
-
-/* Extra large screens, TV */
-@media screen and (min-width: 1201px) {
 }

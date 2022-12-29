@@ -1,22 +1,11 @@
 import React, {useState} from "react";
 import '../../Assets/Styles/About.css';
 import {HiArrowNarrowRight} from "react-icons/hi";
-
-
-// import { initializeApp } from "firebase/app";
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js";
 import {getFirestore, doc, setDoc} from "https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js";
 
 
 const Form = () => {
-
-
-    // Import the functions you need from the SDKs you need
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
     const firebaseConfig = {
         apiKey: "AIzaSyCFx9B-z4VQDl0JG2264t8EsS5R5tm-p8k",
@@ -81,13 +70,13 @@ const Form = () => {
                 <div className="form-content-blue">
                     <div className="form-header-blue">
                         Renovate unique Business Processes into Digitally Transformed
-                                                            solutions with vatech Technosoft!
+                                                                                    solutions with vatech Technosoft!
                     </div>
                     <div className="form-desc-blue">
                         Do you want to remove manual operations, acting as impediment to
-                                                            your business growth? Realize your ideas into reliable web and
-                                                            mobile software solutions with our professional services. Take first
-                                                            step to launch your project by filling the form.
+                                                                                    your business growth? Realize your ideas into reliable web and
+                                                                                    mobile software solutions with our professional services. Take first
+                                                                                    step to launch your project by filling the form.
                     </div>
                     <span className="arrow-form-blue"
                         style={

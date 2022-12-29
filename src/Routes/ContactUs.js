@@ -1,18 +1,9 @@
 import React, {useState} from 'react';
 import '../Assets/Styles/Contact.css';
-
-
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js";
 import {getFirestore, doc, setDoc} from "https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js";
 
 const ContactUs = () => {
-    // Import the functions you need from the SDKs you need
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
     const firebaseConfig = {
         apiKey: "AIzaSyCFx9B-z4VQDl0JG2264t8EsS5R5tm-p8k",
         authDomain: "va-tech-b5100.firebaseapp.com",
@@ -27,7 +18,7 @@ const ContactUs = () => {
     // Initialize Firebase
     const db = getFirestore();
 
- 
+
     const [firstName, setfirstName] = useState("");
     const [lastName, setlastName] = useState("");
     const [email, setemail] = useState("");
@@ -51,7 +42,7 @@ const ContactUs = () => {
         setmessage(e.target.value);
     }
 
-    async function sendMessage() { // Adding time stamp and changing status
+    async function sendMessage() {
         let timeStamp = Date.now();
         let name = firstName + " " + lastName;
         await setDoc(doc(db, "contact", name), {

@@ -3,8 +3,6 @@ import img1 from "../../Assets/Images/google.jpg";
 import img2 from "../../Assets/Images/sony.jpg";
 import img3 from "../../Assets/Images/stack.jpg";
 import img4 from "../../Assets/Images/microsoft.jpg";
-// import Service from "../HomePage/Services";
-// import {aboutValue} from "../HomePage/data/Data"
 const Values = () => {
     return (
         <>
@@ -14,8 +12,7 @@ const Values = () => {
                     We work with some of the worlds{" "}
                     <span style={
                         {color: "blue"}
-                    }>Leading
-                    </span>
+                    }>Leading{" "} </span>
                     companies.
                 </div>
 

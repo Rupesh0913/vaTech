@@ -15,7 +15,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function App() {
     return (
         <div className="App">
-
             <Header/>
             <Routes>
                 <Route exact path="/"
@@ -34,7 +33,7 @@ export default function App() {
                     element={
                         < ContactUs />
                     }/>
-                    <Route path="/blog"
+                <Route path="/blog"
                     element={
                         < Blog />
                     }/>

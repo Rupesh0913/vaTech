@@ -234,7 +234,7 @@ const WhatWeDo = () => {
                                     </Carousel.Item>
                                 </Carousel>
                             </div>
-                            {/* </div> */} </div>
+                        </div>
                     </div>
 
                 </div>

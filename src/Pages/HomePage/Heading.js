@@ -5,7 +5,6 @@ import img from "../../Assets/Images/Header-img.jpg";
 const Heading = () => {
     return (
         <>
-
             <div className="heading">
                 <div className="content">
                     <div className='content-text'>

@@ -5,9 +5,9 @@ import Progress from '../Pages/HomePage/Progress';
 import Info from '../Pages/HomePage/Info';
 import Services from '../Pages/HomePage/Services';
 import img1 from "../Assets/Images/officeImg.jpg";
-import img2 from "../Assets/Images/contactImg.jpg"
-import Rectangle1 from "../Assets/Images/Pattern/Rectangle.jpg"
-import Rectangle2 from "../Assets/Images/Pattern/Rectangle2.jpg"
+import img2 from "../Assets/Images/contactImg.jpg";
+import Rectangle1 from "../Assets/Images/Pattern/Rectangle.jpg";
+import Rectangle2 from "../Assets/Images/Pattern/Rectangle2.jpg";
 import Testimonials from '../Pages/HomePage/Testimonials';
 
 
@@ -27,7 +27,7 @@ const Home = () => {
                     Rectangle={Rectangle2}
                     headText="What is Agile Development?"
                     subHeadText="Get to know how we work, who we are and what we value on this all means beautiful web page"/>
-                    <Testimonials/>
+                <Testimonials/>
             </div>
         </>
     )

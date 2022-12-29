@@ -92,7 +92,7 @@ const Support = () => {
                 </div>
 
             </div>
-            </>
+        </>
     );
 };
 

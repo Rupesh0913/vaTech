@@ -3,11 +3,8 @@ import Heading from '../Pages/AboutPage/Heading';
 import Values from '../Pages/AboutPage/Values';
 import Form from '../Pages/AboutPage/Form';
 import Info from "../Pages/HomePage/Info";
-import Support from '../Pages/HomePage/Support';
-import img1 from "../Assets/Images/officeImg.jpg";
-import img2 from "../Assets/Images/contactImg.jpg"
-import Rectangle1 from "../Assets/Images/Pattern/Rectangle.jpg"
-import Rectangle2 from "../Assets/Images/Pattern/Rectangle2.jpg"
+import img2 from "../Assets/Images/contactImg.jpg";
+import Rectangle2 from "../Assets/Images/Pattern/Rectangle2.jpg";
 import Vision from '../Pages/AboutPage/Vision';
 
 const About = () => {

@@ -6,6 +6,7 @@
   display: block;
   overflow: hidden;
 }
+
 .heading {
   display: flex;
   justify-content: space-between;
@@ -32,6 +33,7 @@
   margin: 1.5vmax 0vmax;
   color: #2d2d2d;
 }
+
 .btn-container {
   display: flex;
   align-content: center;
@@ -47,23 +49,29 @@
   .heading-img {
     display: none;
   }
+
   .main-box {
     margin-top: 10vmax;
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .content-text {
     text-align: center;
   }
+
   .content-head-text {
     margin-top: 1vmax;
   }
+
   .content-sub-head-text {
     text-align: justify;
   }
+
   .btn-container {
     justify-content: center;
   }
+
   .heading {
     justify-content: center;
   }
@@ -74,6 +82,7 @@
   .heading-img {
     display: none;
   }
+
   .main-box {
     margin-top: 10vmax;
   }
@@ -84,6 +93,7 @@
   .heading-img {
     display: none;
   }
+
   .main-box {
     margin-top: 7vmax;
   }
@@ -94,13 +104,10 @@
   .heading-img {
     display: none;
   }
+
   .main-box {
     margin-top: 7vmax;
   }
-}
-
-/* Extra large screens, TV */
-@media screen and (min-width: 1201px) {
 }
 
 /* Support */
@@ -116,6 +123,7 @@
   font-family: "Poppins", sans-serif;
   background-color: #fbfbfb;
 }
+
 .support-heading,
 .support-heading span {
   font-family: "Poppins", sans-serif;
@@ -124,6 +132,7 @@
   margin: 4rem 0 2rem 0;
   text-align: center;
 }
+
 .img-container-company {
   display: flex;
   justify-content: space-evenly;
@@ -131,6 +140,7 @@
   width: 80vmax;
   height: 10vmax;
 }
+
 .img-container-company img {
   width: 15vmax;
   margin: 1vmax;
@@ -141,10 +151,6 @@
   width: 20vmax;
 }
 
-/* .noDisplay {
-  display: none;
-} */
-
 .support-head-2 {
   font-size: 3vmax;
   font-weight: 600;
@@ -152,6 +158,7 @@
   margin-top: 2vmax;
   margin-right: 15vmax;
 }
+
 .support-sub-head-2 {
   font-size: 1.4vmax;
   margin: 1vmax 0vmax;
@@ -162,33 +169,42 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .suppport-img-div-1 {
   display: flex;
 }
+
 .support-img-internal {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
+
 .supportImg4 {
   width: 41vmax;
 }
+
 .supportImg1 {
   width: 20vmax;
 }
+
 .supportImg2 {
   width: 20vmax;
 }
+
 .supportImg3 {
   width: 20vmax;
 }
+
 .img-support-individual {
   margin: 0.6vmax;
 }
+
 .support-content ul li {
   font-size: 1.5vmax;
   font-weight: 500;
 }
+
 .support-content ul li {
   margin: 1vmax 0;
 }
@@ -202,25 +218,30 @@
     align-items: center;
     width: 20vmax;
   }
+
   .img-container-company img {
     margin-top: 5vmax;
     width: 25vmax;
   }
+
   .supportImg1,
   .supportImg2,
   .supportImg3 {
     display: none;
   }
+
   .support-2 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
   }
+
   .support-head-2 {
     margin-right: 15vmax;
     margin-top: 1vmax;
     margin-left: 15vmax;
   }
+
   .support-content ul {
     display: flex;
     flex-direction: column;
@@ -228,6 +249,7 @@
     align-items: flex-start;
     margin: 2vmax 14vmax;
   }
+
   .supportImg4 {
     margin: 5vmax;
   }
@@ -240,20 +262,7 @@
   }
 }
 
-/* Small screens, laptops */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-
-/* Desktops, large screens */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-}
-
-/* Extra large screens, TV */
-@media screen and (min-width: 1201px) {
-}
-
 /* progress */
-
 .progress-1 {
   display: flex;
   flex-direction: column;
@@ -261,6 +270,7 @@
   align-items: center;
   margin: 4vmax 0 20vmax 0vmax;
 }
+
 .progress-img {
   margin-top: 10vmax;
   display: flex;
@@ -271,6 +281,7 @@
   align-items: center;
   overflow: hidden;
 }
+
 .progress-content {
   display: flex;
   border: solid;
@@ -285,15 +296,18 @@
   position: absolute;
   margin-top: 40vmax;
 }
+
 .progress-content-head {
   font-size: 3vmax;
   font-weight: 500;
 }
+
 .progress-content-sub-head {
   font-size: 1.5vmax;
   padding: 0 1vmax;
   text-align: center;
 }
+
 .first,
 .second,
 .third {
@@ -307,41 +321,28 @@
   .progress-img {
     display: none;
   }
+
   .progress-1 {
     margin: 10vmax 20vmax 55vmax 20vmax;
   }
+
   .progress-content {
     flex-direction: column;
     width: 30vmax;
   }
+
   .first,
   .second,
   .third {
     margin: 3vmax 0 3vmax 0;
   }
+
   .progress-content-sub-head {
     margin: 0 5vmax;
   }
 }
 
-/*  iPads, Tablets */
-@media screen and (min-width: 515px) and (max-width: 768px) {
-}
-
-/* Small screens, laptops */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-
-/* Desktops, large screens */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-}
-
-/* Extra large screens, TV */
-@media screen and (min-width: 1201px) {
-}
-
 /* contact */
-
 .contact {
   display: flex;
   justify-content: center;
@@ -359,18 +360,21 @@
   margin-right: 5vmax;
   position: relative;
 }
+
 .dots {
   width: 20vmax;
   z-index: -1;
   margin: 0;
   padding: 0;
 }
+
 .officeImg {
   position: absolute;
   border-radius: 10px;
   z-index: 1;
   width: 30vmax;
 }
+
 .rectangle {
   z-index: -1;
   width: 20vmax;
@@ -378,12 +382,14 @@
   justify-content: end;
   margin: 0 1vmax 0 20vmax;
 }
+
 .contact-content-head {
   font-size: 3.5vmax;
   font-weight: 700;
   line-height: 3vmax;
   margin-bottom: 2vmax;
 }
+
 .contact-content-sub-head {
   font-size: 1.5vmax;
 }
@@ -392,14 +398,17 @@
   .contact-img {
     display: none;
   }
+
   .contact-content-head {
     text-align: center;
     margin: 5vmax 5vmax;
   }
+
   .contact-content-sub-head {
     text-align: center;
     margin: 0 4vmax 2vmax 4vmax;
   }
+
   .contact-content {
     display: flex;
     flex-direction: column;
@@ -412,32 +421,23 @@
   .contact-img {
     display: none;
   }
+
   .contact-content-head {
     text-align: center;
     font-size: 5vmax;
     margin: 0 5vmax 2vmax 5vmax;
     line-height: 35px;
   }
+
   .contact-content-sub-head {
     text-align: center;
     font-size: 2vmax;
     margin: 1vmax 4vmax 2vmax 4vmax;
   }
+
   .contact-content {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-}
-
-/* Small screens, laptops */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-
-/* Desktops, large screens */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-}
-
-/* Extra large screens, TV */
-@media screen and (min-width: 1201px) {
 }

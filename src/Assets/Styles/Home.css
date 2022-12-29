@@ -43,6 +43,7 @@
 
 #btn-knowMore {
   margin-left: 1vmax;
+  height: 100%;
 }
 
 @media screen and (max-width: 515px) {

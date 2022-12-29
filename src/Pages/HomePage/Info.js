@@ -1,5 +1,6 @@
 import React from 'react';
 import Dots from '../../Assets/Images/Pattern/Dots.jpg';
+import {Link} from 'react-router-dom';
 
 const Info = ({img, Rectangle, headText, subHeadText}) => {
     return (
@@ -21,7 +22,9 @@ const Info = ({img, Rectangle, headText, subHeadText}) => {
                         {headText}</div>
                     <div className='contact-content-sub-head'>
                         {subHeadText}</div>
-                    <button className="btn-2" id='btn-contactUs'>Contact Us</button>
+                    <Link to="contactus">
+                        <button className="btn-2" id='btn-contactUs'>Contact Us</button>
+                    </Link>
                 </div>
             </div>
         </>

@@ -1,5 +1,6 @@
 import React from 'react';
 import img from "../../Assets/Images/About-Head.jpg";
+import {Link} from 'react-router-dom';
 
 const Heading = () => {
     return (
@@ -12,8 +13,9 @@ const Heading = () => {
                         </span>
                         {'\u00A0'}are we</span>
                     <div className='about-head'>We represent a team of intellectual and ethical professionals...</div>
+                    <Link to="/whatWeDo">
+                        <button className="btn-1 ">Know More</button></Link>
                     <div className="btn-container">
-                        <button className="btn-1 ">Know More</button>
                     </div>
                 </div>
                 <div className="heading-about-img">

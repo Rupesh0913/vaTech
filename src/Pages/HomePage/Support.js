@@ -21,8 +21,7 @@ const Support = () => {
                     We work with some of the worlds{" "}
                     <span style={
                         {color: "blue"}
-                    }>Leading
-                    </span>
+                    }>Leading{" "}</span>
                     companies.
                 </div>
 
@@ -93,7 +92,7 @@ const Support = () => {
                 </div>
 
             </div>
-            {/* </div> */} </>
+            </>
     );
 };
 

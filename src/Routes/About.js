@@ -2,7 +2,7 @@ import React from 'react';
 import Heading from '../Pages/AboutPage/Heading';
 import Values from '../Pages/AboutPage/Values';
 import Form from '../Pages/AboutPage/Form';
-import Contact from "../Pages/HomePage/Contact";
+import Info from "../Pages/HomePage/Info";
 import Support from '../Pages/HomePage/Support';
 import img1 from "../Assets/Images/officeImg.jpg";
 import img2 from "../Assets/Images/contactImg.jpg"
@@ -21,7 +21,7 @@ const About = () => {
             <Form/>
 
             <div className='main-box'>
-                <Contact img={img2}
+                <Info img={img2}
                     Rectangle={Rectangle2}
                     headText="What is Agile Development?"
                     subHeadText="Get to know how we work, who we are and what we value on this all means beautiful web page"/>

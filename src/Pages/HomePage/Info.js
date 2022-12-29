@@ -1,7 +1,7 @@
 import React from 'react';
 import Dots from '../../Assets/Images/Pattern/Dots.jpg';
 
-const Contact = ({img, Rectangle, headText, subHeadText}) => {
+const Info = ({img, Rectangle, headText, subHeadText}) => {
     return (
         <>
             <div className="contact">
@@ -28,4 +28,4 @@ const Contact = ({img, Rectangle, headText, subHeadText}) => {
     )
 }
 
-export default Contact;
+export default Info;

@@ -41,7 +41,7 @@ const Header = () => {
                             id="header-btn">
                             <div className='nav-btn mobile-btn'>What We Do</div>
                         </Link>
-                        <Link to="/"
+                        <Link to="/blog"
                             onClick={
                                 () => setNav()
                             }

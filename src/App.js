@@ -4,6 +4,7 @@ import Home from "./Routes/Home"
 import About from "./Routes/About";
 import ContactUs from "./Routes/ContactUs";
 import WhatWeDo from "./Routes/WhatWeDo";
+import Blog from "./Routes/Blog";
 import Error from "./Routes/Error";
 import Header from './Layouts/Header/Header';
 import Footer from './Layouts/Footer/Footer';
@@ -32,6 +33,10 @@ export default function App() {
                 <Route path="/contactus"
                     element={
                         < ContactUs />
+                    }/>
+                    <Route path="/blog"
+                    element={
+                        < Blog />
                     }/>
                 <Route component={Error}/>
             </Routes>

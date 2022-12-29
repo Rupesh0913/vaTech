@@ -53,7 +53,7 @@
 .card-user-info{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     margin: 1.5vmax 0  0vmax 0;    
 }
@@ -65,7 +65,57 @@
 .card-desc{
     font-size: 1.2vmax;
     text-align: justify;
-    line-height: 22px;
+    line-height: 2vmax;
     margin: 0vmax 4vmax 0 0vmax;
     color: rgb(73, 72, 72);
 }
+
+@media screen and (max-width: 480px) {
+    .main-testimonials{
+        display: none;
+    }
+  }
+  
+  /*  iPads, Tablets */
+  @media screen and (min-width: 481px) and (max-width: 560px) {
+    .card-container{
+        height: auto;
+        padding: 1vmax 1vmax;
+        margin: 0 0.5vmax;
+    }
+    .testimonial-img{
+        height: 2vmax;
+        width: 2vmax;
+    }
+    .arrow-testimonial{
+        border: none;
+    }
+    .arrow-testimonial:hover{
+        box-shadow: none;
+        border: none;
+    }
+
+  }
+  
+  /* Small screens, laptops */
+  @media screen and (min-width: 561px) and (max-width: 1100px) {
+
+.card-container{
+    height: auto;
+    padding: 2vmax 2vmax;
+}
+.testimonial-img{
+    height: 5vmax;
+    width: 5vmax;
+}
+  }
+  
+  /* Desktops, large screens */
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+  }
+  
+  /* Extra large screens, TV */
+  @media screen and (min-width: 1201px) {
+
+  }

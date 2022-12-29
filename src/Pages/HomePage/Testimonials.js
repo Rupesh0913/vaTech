@@ -15,8 +15,7 @@ const Testimonials = () => {
             img: img1,
             userName: "Akshara Pandey",
             userDesc: "User Experience at Google"
-        },
-        {
+        }, {
             id: 2,
             head: "Free,enterprise-level support",
             desc: "Get to know how we work, who we are and what we value on this all means beautiful web page",
@@ -27,22 +26,22 @@ const Testimonials = () => {
     ]
 
     const onLeftArrow = () => {
-        if(final>1){
+        if (final > 1) {
             setfinal(final - 1);
         }
-        if(initial>0){
+        if (initial > 0) {
             setinitial(initial - 1);
         }
     }
     const onRightArrow = () => {
-        if(final<testimonialLength-1){
+        if (final < testimonialLength - 1) {
             setfinal(final + 1);
         }
-        if(initial<testimonialLength-2){
+        if (initial < testimonialLength - 2) {
             setinitial(initial + 1);
         }
     }
-    
+
 
     const [initial, setinitial] = useState(0);
     const [final, setfinal] = useState(1);
@@ -66,7 +65,9 @@ const Testimonials = () => {
                     testimonial.map((test, index) => {
                         if (index >= initial && index <= final) {
                             return (
-                                <div key={test.id}>
+                                <div key={
+                                    test.id
+                                }>
                                     <Testimonial head={
                                             test.head
                                         }
@@ -93,7 +94,7 @@ const Testimonials = () => {
                                 onRightArrow()
                             }
                     }>
-                        
+
                         <BsArrowRight size={25}/>
                     </div>
                 </div>

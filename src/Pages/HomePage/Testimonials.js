@@ -11,7 +11,7 @@ const Testimonials = () => {
         {
             id: 1,
             head: "Free,enterprise-level support",
-            desc: "Get to know how we work, who we are and what we value on this all meansbeautiful web page",
+            desc: "Get to know how we work, who we are and what we value on this all means beautiful web page",
             img: img1,
             userName: "Akshara Pandey",
             userDesc: "User Experience at Google"
@@ -19,7 +19,7 @@ const Testimonials = () => {
         {
             id: 2,
             head: "Free,enterprise-level support",
-            desc: "Get to know how we work, who we are and what we value on this all meansbeautiful web page",
+            desc: "Get to know how we work, who we are and what we value on this all means beautiful web page",
             img: img2,
             userName: "Ankit Jain",
             userDesc: "Product Designer at Apple"
